@@ -1,0 +1,4 @@
+*.bat
+.env
+node_modules/
+uploads/
