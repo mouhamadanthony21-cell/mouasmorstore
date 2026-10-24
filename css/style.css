@@ -2127,3 +2127,11 @@ footer { background: var(--navy); color: #b8b3bc; }
     flex-shrink: 0 !important;
   }
 }
+
+.topbar-tel {
+  display: inline-flex; align-items: center; gap: 8px;
+  white-space: nowrap;           /* garde le numéro sur une seule ligne */
+  color: #fff; font-weight: 600; font-size: 0.9rem;
+}
+.topbar-tel i { color: var(--gold); }
+.topbar .container { flex-wrap: nowrap; }
