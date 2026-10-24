@@ -2106,20 +2106,24 @@ footer { background: var(--navy); color: #b8b3bc; }
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
 
-/* Correctif mobile : logo + boutons du header */
+/* Correctif mobile : logo sur deux lignes + boutons du header */
 @media (max-width: 600px) {
-  header.menu .container { gap: 10px; padding: 10px 0; }
-  header.menu .logo { flex: 1 1 auto; min-width: 0; gap: 8px; }
-  .menu .logo img { width: 44px; height: 44px; flex-shrink: 0; }
-  .logo-texte { min-width: 0; }
-  header.menu .logo-texte b { font-size: 0.98rem !important; white-space: nowrap; }
-  header.menu .actions-menu { flex-shrink: 0; gap: 8px; }
+  header.menu .container { gap: 8px !important; padding: 8px 0 !important; }
+  header.menu .logo { flex: 1 1 0 !important; min-width: 0 !important; gap: 8px !important; }
+  header.menu .logo img { width: 42px !important; height: 42px !important; flex-shrink: 0 !important; }
+  header.menu .logo-texte { min-width: 0 !important; }
+  header.menu .logo-texte b {
+    display: block !important;
+    width: min-content !important;
+    white-space: normal !important;
+    font-size: 1.05rem !important;
+    line-height: 1.1 !important;
+    letter-spacing: 0 !important;
+  }
+  header.menu .actions-menu { flex-shrink: 0 !important; gap: 6px !important; }
   header.menu .action-btn,
-  header.menu .burger { width: 38px; height: 38px; flex-shrink: 0; }
-}
-
-/* Très petits écrans */
-@media (max-width: 360px) {
-  header.menu .logo-texte b { font-size: 0.88rem !important; }
-  header.menu .logo img { width: 38px; height: 38px; }
+  header.menu .burger {
+    width: 38px !important; height: 38px !important;
+    flex-shrink: 0 !important;
+  }
 }
