@@ -89,6 +89,13 @@ h1, h2, h3, h4 {
 .topbar-gauche { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
 .topbar-info { display: inline-flex; align-items: center; gap: 7px; }
 .topbar-info i { color: var(--gold); width: 14px; text-align: center; }
+.nom-marque-top { 
+  font-family: "Fraunces", serif; 
+  color: var(--gold-2); 
+  font-weight: 700; 
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
 
 header.menu {
   background: var(--blanc);
@@ -209,6 +216,9 @@ header.menu .container {
     box-shadow: 0 0 0 14px rgba(195, 161, 90, 0.26), 0 24px 46px rgba(0, 0, 0, 0.45);
     background: radial-gradient(circle, rgba(21, 20, 36, 0.9) 0%, rgba(21, 20, 36, 0.7) 100%);
   }
+.hero-fleche {
+    display: none;
+}
 
   position: absolute; bottom: -14px; right: -14px;
   font-family: "Fraunces", serif; color: var(--gold);
@@ -987,7 +997,14 @@ footer { background: var(--navy); color: #b8b3bc; }
 
   /* 2. LOGO CORRECTION */
   .logo-texte { 
-    display: none !important; 
+    display: flex !important; 
+    gap: 8px;
+  }
+  .logo-texte b {
+    font-size: 1rem !important;
+  }
+  .logo-texte span {
+    display: none !important;
   }
 
   /* 3. HERO TEXTE CORRECTION */
