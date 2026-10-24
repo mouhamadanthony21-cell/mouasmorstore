@@ -19,7 +19,7 @@ const PRODUITS = [
     prix: 10000,
     ancienPrix: null,
     note: 4.5,
-    image: "img-tissus/avogan wax.jpg",
+    image: "img-tissus/avogan_wax.jpg",
     badge: "Populaire",
     description:
       "Wax avogan célèbre pour ses motifs géométriques et ses couleurs éclatantes. Un tissage souple, d'un poids juste, qui en fait un tissu incontournable pour les boubous, les chemises et les tenues de fête.",
@@ -32,7 +32,7 @@ const PRODUITS = [
     prix: 12500,
     ancienPrix: 14000,
     note: 4.6,
-    image: "img-tissus/chigaviny wax.jpg",
+    image: "img-tissus/chigaviny_wax.jpg",
     badge: "Nouveau",
     description:
       "Wax chigaviny à l'esprit raffiné, dont les motifs dégradés et les touches dorées captent la lumière. Le tissu des occasions où l'élégance se remarque de loin.",
@@ -45,7 +45,7 @@ const PRODUITS = [
     prix: 9500,
     ancienPrix: null,
     note: 4.4,
-    image: "img-tissus/popelin perlé.jpg",
+    image: "img-tissus/popelin_perle.jpg",
     badge: null,
     description:
       "Popelin perlé, un tissu fin, léger et brillant, reconnaissable à son grain nacré. Idéal pour les robes légères, les chemises et les doublures de haute couture.",
@@ -58,7 +58,7 @@ const PRODUITS = [
     prix: 13500,
     ancienPrix: 15000,
     note: 4.7,
-    image: "img-tissus/uniwax top gold.jpg",
+    image: "img-tissus/uniwax_top_gold.jpg",
     badge: "Premium",
     description:
       "Uniwax top gold, un wax premium aux reflets dorés et à la tenue impeccable. Le choix des couturières et des boutiques pour les tenues de cérémonie.",
@@ -71,7 +71,7 @@ const PRODUITS = [
     prix: 11000,
     ancienPrix: null,
     note: 4.5,
-    image: "img-tissus/wax choco gold.jpg",
+    image: "img-tissus/wax_choco_gold.jpg",
     badge: "Cérémonie",
     description:
       "Wax choco gold aux tons chocolat et or, chaleureux et élégant. Un motif passe-partout qui convient aussi bien aux tenues du quotidien qu'aux occasions spéciales.",
@@ -84,7 +84,7 @@ const PRODUITS = [
     prix: 12000,
     ancienPrix: 13500,
     note: 4.8,
-    image: "img-tissus/wax original dogon.jpg",
+    image: "img-tissus/wax_original_dogon.jpg",
     badge: "Best-seller",
     description:
       "Wax original dogon, inspiré des motifs dogon : figures géométriques symboliques et couleurs profondes. Un tissu d'héritage qui se transmet de génération en génération.",
@@ -97,7 +97,7 @@ const PRODUITS = [
     prix: 15000,
     ancienPrix: 17500,
     note: 4.9,
-    image: "img-tissus/wax satin perlage.jpg",
+    image: "img-tissus/wax_satin_perlage.jpg",
     badge: "Premium",
     description:
       "Wax satin perlage, le plus demandé de notre sélection : un tissage satiné et un relief « perlage » qui attrape la lumière. Un rouleau de grande qualité pour vos tenues de grande occasion.",
@@ -110,7 +110,7 @@ const PRODUITS = [
     prix: 13000,
     ancienPrix: null,
     note: 4.6,
-    image: "img-tissus/wax super ankara.jpg",
+    image: "img-tissus/wax_super_ankara.jpg",
     badge: "Best-seller",
     description:
       "Wax super ankara, dense et résistant, avec de grands motifs ankara qui claquent à la lumière. Le tissu idéal pour les tenues du quotidien comme pour les grands événements.",
@@ -123,7 +123,7 @@ const PRODUITS = [
     prix: 14000,
     ancienPrix: 16000,
     note: 4.7,
-    image: "img-tissus/woodin bleu royal - eclat sauvage.jpg",
+    image: "img-tissus/woodin_bleu_royal_eclat_sauvage.jpg",
     badge: "Premium",
     description:
       "Woodin bleu royal - éclat sauvage, un dégradé de bleu profond ponctué de touches vives. Un tissu moderne et raffiné qui met en valeur le port de la tenue.",
@@ -136,7 +136,7 @@ const PRODUITS = [
     prix: 13500,
     ancienPrix: null,
     note: 4.7,
-    image: "img-tissus-2/dentelles et voiles brodés.jpg",
+    image: "img-tissus-2/dentelles_et_voiles_brodes.jpg",
     badge: "Cérémonie",
     description:
       "Dentelles et voiles brodés, des pièces légères et délicates pour voiler une tenue, encadrer un visage ou signer une robe de soirée. Le lace travaillé à la main fait toute la différence.",
@@ -149,7 +149,7 @@ const PRODUITS = [
     prix: 12000,
     ancienPrix: null,
     note: 4.5,
-    image: "img-tissus-2/eventails de wax assortis.jpg",
+    image: "img-tissus-2/eventails_de_wax_assortis.jpg",
     badge: "Nouveau",
     description:
       "Eventails de wax assortis, plusieurs modèles aux motifs coordonnés avec nos rouleaux de wax. L'accessoire qui finalise une tenue de fête.",
@@ -162,7 +162,7 @@ const PRODUITS = [
     prix: 14000,
     ancienPrix: null,
     note: 4.8,
-    image: "img-tissus-2/pagne gtp authentic ghana.jpg",
+    image: "img-tissus-2/pagne_gtp_authentic_ghana.jpg",
     badge: "Premium",
     description:
       "Pagne GTP Authentic Ghana, un pagne au tissage traditionnel ghanéen, épais et durable. La référence pour les boubous et les tenues traditionnelles d'exception.",
@@ -175,7 +175,7 @@ const PRODUITS = [
     prix: 18500,
     ancienPrix: 22000,
     note: 4.9,
-    image: "img-tissus-2/robes batik teints.jpg",
+    image: "img-tissus-2/robes_batik_teints.jpg",
     badge: "Premium",
     description:
       "Robes Batik Teints, des robes déjà prêtes à porter, teintées au batik et cousues main. La solution pour être habillée sans attendre la confection.",
@@ -188,7 +188,7 @@ const PRODUITS = [
     prix: 12500,
     ancienPrix: 14000,
     note: 4.7,
-    image: "img-tissus-2/super wax néerlandais.jpg",
+    image: "img-tissus-2/super_wax_neerlandais.jpg",
     badge: "Best-seller",
     description:
       "Super Wax néerlandais, un wax aux motifs fins inspirés de la tradition néerlandaise, souple et facile à coudre. Très demandé pour les tenues chiques du quotidien.",
@@ -201,7 +201,7 @@ const PRODUITS = [
     prix: 10500,
     ancienPrix: null,
     note: 4.5,
-    image: "img-tissus-2/tissus block print style.jpg",
+    image: "img-tissus-2/tissus_block_print_style.jpg",
     badge: null,
     description:
       "Tissus Block Print Style, un imprimé obtenu par tampons de bois, artisanal et légèrement irrégulier. Un style naturel, très demandé pour les robes d'été.",
@@ -214,7 +214,7 @@ const PRODUITS = [
     prix: 16000,
     ancienPrix: 18000,
     note: 4.9,
-    image: "img-tissus-2/wax dentelle haute couture.jpg",
+    image: "img-tissus-2/wax_dentelle_haute_couture.jpg",
     badge: "Premium",
     description:
       "Wax Dentelle Haute Couture, l'alliance du wax et de la dentelle, un tissu de podium pour les occasions qui doivent laisser une trace.",
@@ -227,7 +227,7 @@ const PRODUITS = [
     prix: 17000,
     ancienPrix: null,
     note: 4.8,
-    image: "img-tissus-2/wax golden edition limitée.jpg",
+    image: "img-tissus-2/wax_golden_edition_limitee.jpg",
     badge: "Best-seller",
     description:
       "Wax Golden Edition Limitée, une série limitée aux fils dorés, produite en petite quantité. Tant qu'il en reste, il n'y en aura pas deux pareils.",
@@ -240,7 +240,7 @@ const PRODUITS = [
     prix: 15500,
     ancienPrix: 17500,
     note: 4.7,
-    image: "img-tissus-2/wax haute couture graphique et abstrait.jpg",
+    image: "img-tissus-2/wax_haute_couture_graphique_et_abstrait.jpg",
     badge: "Cérémonie",
     description:
       "Wax Haute Couture Graphique et Abstrait, des formes graphiques fortes qui modernisent la coupe. Le choix des créatrices pour les tenues de soirée qui doivent marquer les esprits.",
@@ -253,7 +253,7 @@ const PRODUITS = [
     prix: 15000,
     ancienPrix: null,
     note: 4.7,
-    image: "img-tissus-2/wax imperial dentelle.jpg",
+    image: "img-tissus-2/wax_imperial_dentelle.jpg",
     badge: "Premium",
     description:
       "Wax Imperial Dentelle, un wax d'une densité rare orné de dentelle, lourd et somptueux. Un tissu de cérémonie, taillé pour les grands jours.",
@@ -266,7 +266,7 @@ const PRODUITS = [
     prix: 11500,
     ancienPrix: 13000,
     note: 4.6,
-    image: "img-tissus-2/wax imprimé premium.jpg",
+    image: "img-tissus-2/wax_imprime_premium.jpg",
     badge: "Nouveau",
     description:
       "Wax Imprimé Premium, un wax aux motifs bien définis, aux couleurs franches et à la finition soignée. Un classique qui se porte toute l'année.",
@@ -279,7 +279,7 @@ const PRODUITS = [
     prix: 13000,
     ancienPrix: null,
     note: 4.8,
-    image: "img-tissus-2/wax prestige floral.jpg",
+    image: "img-tissus-2/wax_prestige_floral.jpg",
     badge: "Best-seller",
     description:
       "Wax Prestige Floral, un imprimé floral raffiné où les fleurs s'enroulent sur un fond profond. Un tissu délicat qui met en valeur les tenues de cérémonie.",
@@ -292,7 +292,7 @@ const PRODUITS = [
     prix: 13000,
     ancienPrix: 14500,
     note: 4.8,
-    image: "img-tissus-2/wax sika imprimés traditionnels.jpg",
+    image: "img-tissus-2/wax_sika_imprimes_traditionnels.jpg",
     badge: "Premium",
     description:
       "Wax Sika Imprimés Traditionnels, un wax aux motifs sika, symboliques et colorés, transmis de génération en génération. Un classique toujours très demandé.",
@@ -322,7 +322,7 @@ const PRODUITS = [
     prix: 4500,
     ancienPrix: 5500,
     note: 4.8,
-    image: "img-capilaire/Hair Growth Faster - Baume Capillaire Nourrissant & Anti-Pelliculaire.jpg",
+    image: "img-capilaire/Hair_Growth_Faster_Baume_Capillaire_Nourrissant_Anti_Pelliculaire.jpg",
     badge: "Populaire",
     description:
       "Baume capillaire nourrissant et anti-pelliculaire qui favorise une pousse rapide et régulière. Enrichi en huiles natives et en actifs apaisants, il nourrit le cuir chevelu en profondeur, calme les irritations et redonne de l'éclat aux cheveux.",
@@ -337,7 +337,7 @@ const PRODUITS = [
     prix: 3500,
     ancienPrix: null,
     note: 4.7,
-    image: "img-divers/Gamme de Savons Naturels - En Gomme & En Pâte Verte.jpg",
+    image: "img-divers/Gamme_de_Savons_Naturels_En_Gomme_En_Pate_Verte.jpg",
     badge: "Nouveau",
     description:
       "Une gamme de savons 100 % naturels, disponible en gomme et en pâte, à la pâte verte. Formulés à l'huile végétale et à l'aloe vera, ils nettoient la peau en douceur, la protègent et respectent l'environnement.",
