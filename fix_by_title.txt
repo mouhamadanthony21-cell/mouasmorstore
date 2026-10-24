@@ -1,0 +1,29 @@
+-- MISE À JOUR PAR TITRE (CAR LES IDs SONT DES UUID) --
+
+UPDATE products SET images = ARRAY['img-tissus/avogan_wax.jpg'] WHERE title = 'Avogan Wax';
+UPDATE products SET images = ARRAY['img-tissus/chigaviny_wax.jpg'] WHERE title = 'Chigaviny Wax';
+UPDATE products SET images = ARRAY['img-tissus/popelin_perle.jpg'] WHERE title = 'Popelin Perlé';
+UPDATE products SET images = ARRAY['img-tissus/uniwax_top_gold.jpg'] WHERE title = 'Uniwax Top Gold';
+UPDATE products SET images = ARRAY['img-tissus/wax_choco_gold.jpg'] WHERE title = 'Wax Choco Gold';
+UPDATE products SET images = ARRAY['img-tissus/wax_original_dogon.jpg'] WHERE title = 'Wax Original Dogon';
+UPDATE products SET images = ARRAY['img-tissus/wax_satin_perlage.jpg'] WHERE title = 'Wax Satin Perlage';
+UPDATE products SET images = ARRAY['img-tissus/wax_super_ankara.jpg'] WHERE title = 'Wax Super Ankara';
+UPDATE products SET images = ARRAY['img-tissus/woodin_bleu_royal_eclat_sauvage.jpg'] WHERE title = 'Woodin Bleu Royal - Eclat Sauvage';
+
+UPDATE products SET images = ARRAY['img-tissus-2/dentelles_et_voiles_brodes.jpg'] WHERE title = 'Dentelles et Voiles Brodés';
+UPDATE products SET images = ARRAY['img-tissus-2/eventails_de_wax_assortis.jpg'] WHERE title = 'Eventails de Wax Assortis';
+UPDATE products SET images = ARRAY['img-tissus-2/pagne_gtp_authentic_ghana.jpg'] WHERE title = 'Pagne GTP Authentic Ghana';
+UPDATE products SET images = ARRAY['img-tissus-2/robes_batik_teints.jpg'] WHERE title = 'Robes Batik Teints';
+UPDATE products SET images = ARRAY['img-tissus-2/super_wax_neerlandais.jpg'] WHERE title = 'Super Wax Néerlandais';
+UPDATE products SET images = ARRAY['img-tissus-2/tissus_block_print_style.jpg'] WHERE title = 'Tissus Block Print Style';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_dentelle_haute_couture.jpg'] WHERE title = 'Wax Dentelle Haute Couture';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_golden_edition_limitee.jpg'] WHERE title = 'Wax Golden Edition Limitée';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_haute_couture_graphique_et_abstrait.jpg'] WHERE title = 'Wax Haute Couture Graphique et Abstrait';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_imperial_dentelle.jpg'] WHERE title = 'Wax Imperial Dentelle';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_imprime_premium.jpg'] WHERE title = 'Wax Imprimé Premium';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_prestige_floral.jpg'] WHERE title = 'Wax Prestige Floral';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_sika_imprimes_traditionnels.jpg'] WHERE title = 'Wax Sika Imprimés Traditionnels';
+
+UPDATE products SET images = ARRAY['img/produits/parfums-5.png'] WHERE title = 'Nos parfums exclusifs pour homme et femme 100 ml';
+UPDATE products SET images = ARRAY['img-capilaire/Hair_Growth_Faster_Baume_Capillaire_Nourrissant_Anti_Pelliculaire.jpg'] WHERE title = 'Hair Growth Faster - Baume Capillaire Nourrissant & Anti-Pelliculaire';
+UPDATE products SET images = ARRAY['img-divers/Gamme_de_Savons_Naturels_En_Gomme_En_Pate_Verte.jpg'] WHERE title = 'Gamme de Savons Naturels - En Gomme & En Pâte Verte';

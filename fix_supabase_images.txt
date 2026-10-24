@@ -1,0 +1,5 @@
+-- COPIEZ ET COLLEZ CE CODE DANS L'EDITEUR SQL DE SUPABASE --
+
+UPDATE products SET images = ARRAY[REPLACE(image, ' ', '_')] WHERE image IS NOT NULL;
+UPDATE products SET images = ARRAY[REPLACE(REPLACE(image, 'é', 'e'), 'à', 'a')] WHERE image IS NOT NULL;
+UPDATE products SET image = REPLACE(image, ' ', '_') WHERE image IS NOT NULL;

@@ -1,0 +1,8 @@
+-- CODE CORRIGÉ POUR SUPABASE (COLONNE IMAGES AU PLURIEL) --
+
+UPDATE products 
+SET images = ARRAY(
+  SELECT REPLACE(REPLACE(REPLACE(img, ' ', '_'), 'é', 'e'), 'à', 'a')
+  FROM unnest(images) AS img
+)
+WHERE images IS NOT NULL;

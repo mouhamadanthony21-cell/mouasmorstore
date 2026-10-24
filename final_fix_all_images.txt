@@ -1,0 +1,36 @@
+-- RÉINITIALISATION MANUELLE DE TOUTES LES IMAGES (SÛR ET PRÉCIS) --
+
+-- 1. TISSUS
+UPDATE products SET images = ARRAY['img-tissus/avogan_wax.jpg'] WHERE id = 'avogan-wax';
+UPDATE products SET images = ARRAY['img-tissus/chigaviny_wax.jpg'] WHERE id = 'chigaviny-wax';
+UPDATE products SET images = ARRAY['img-tissus/popelin_perle.jpg'] WHERE id = 'popelin-perle';
+UPDATE products SET images = ARRAY['img-tissus/uniwax_top_gold.jpg'] WHERE id = 'uniwax-top-gold';
+UPDATE products SET images = ARRAY['img-tissus/wax_choco_gold.jpg'] WHERE id = 'wax-choco-gold';
+UPDATE products SET images = ARRAY['img-tissus/wax_original_dogon.jpg'] WHERE id = 'wax-original-dogon';
+UPDATE products SET images = ARRAY['img-tissus/wax_satin_perlage.jpg'] WHERE id = 'wax-satin-perlage';
+UPDATE products SET images = ARRAY['img-tissus/wax_super_ankara.jpg'] WHERE id = 'wax-super-ankara';
+UPDATE products SET images = ARRAY['img-tissus/woodin_bleu_royal_eclat_sauvage.jpg'] WHERE id = 'woodin-bleu-royal-eclat-sauvage';
+
+-- 2. TISSUS 2
+UPDATE products SET images = ARRAY['img-tissus-2/dentelles_et_voiles_brodes.jpg'] WHERE id = 'dentelles-et-voiles-brodes';
+UPDATE products SET images = ARRAY['img-tissus-2/eventails_de_wax_assortis.jpg'] WHERE id = 'eventails-de-wax-assortis';
+UPDATE products SET images = ARRAY['img-tissus-2/pagne_gtp_authentic_ghana.jpg'] WHERE id = 'pagne-gtp-authentic-ghana';
+UPDATE products SET images = ARRAY['img-tissus-2/robes_batik_teints.jpg'] WHERE id = 'robes-batik-teints';
+UPDATE products SET images = ARRAY['img-tissus-2/super_wax_neerlandais.jpg'] WHERE id = 'super-wax-neerlandais';
+UPDATE products SET images = ARRAY['img-tissus-2/tissus_block_print_style.jpg'] WHERE id = 'tissus-block-print-style';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_dentelle_haute_couture.jpg'] WHERE id = 'wax-dentelle-haute-couture';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_golden_edition_limitee.jpg'] WHERE id = 'wax-golden-edition-limitee';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_haute_couture_graphique_et_abstrait.jpg'] WHERE id = 'wax-haute-couture-graphique-et-abstrait';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_imperial_dentelle.jpg'] WHERE id = 'wax-imperial-dentelle';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_imprime_premium.jpg'] WHERE id = 'wax-imprime-premium';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_prestige_floral.jpg'] WHERE id = 'wax-prestige-floral';
+UPDATE products SET images = ARRAY['img-tissus-2/wax_sika_imprimes_traditionnels.jpg'] WHERE id = 'wax-sika-imprimes-traditionnels';
+
+-- 3. PARFUMS
+UPDATE products SET images = ARRAY['img/produits/parfums-5.png'] WHERE id = 'parfum-exclusif';
+
+-- 4. POMMADE
+UPDATE products SET images = ARRAY['img-capilaire/Hair_Growth_Faster_Baume_Capillaire_Nourrissant_Anti_Pelliculaire.jpg'] WHERE id = 'hair-growth-faster-baume-capillaire';
+
+-- 5. DIVERS
+UPDATE products SET images = ARRAY['img-divers/Gamme_de_Savons_Naturels_En_Gomme_En_Pate_Verte.jpg'] WHERE id = 'gamme-de-savons-naturels-en-gomme-en-pate-verte';

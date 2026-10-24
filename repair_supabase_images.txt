@@ -1,0 +1,17 @@
+-- REPARAMETRAGE EXACT DES IMAGES PROBLÉMATIQUES --
+
+UPDATE products 
+SET images = ARRAY['img-capilaire/Hair_Growth_Faster_Baume_Capillaire_Nourrissant_Anti_Pelliculaire.jpg'] 
+WHERE images::text LIKE '%Hair Growth Faster%';
+
+UPDATE products 
+SET images = ARRAY['img-tissus/woodin_bleu_royal_eclat_sauvage.jpg'] 
+WHERE images::text LIKE '%woodin bleu royal%';
+
+-- Pour toutes les autres images, on s'assure que les espaces sont des underscores
+UPDATE products 
+SET images = ARRAY(
+  SELECT REPLACE(img, ' ', '_')
+  FROM unnest(images) AS img
+)
+WHERE images IS NOT NULL;

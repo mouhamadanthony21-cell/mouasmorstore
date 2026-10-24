@@ -1,0 +1,16 @@
+-- NETTOYAGE COMPLET DES IMAGES (SUPPRESSION DES TIRETS, ESPACES ET SYMBOLES) --
+
+UPDATE products 
+SET images = ARRAY(
+  SELECT REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(img, ' ', '_'), '-', '_'), '_-', '_'), '&', '_'), 'é', 'e')
+  FROM unnest(images) AS img
+)
+WHERE images IS NOT NULL;
+
+-- Nettoyage des doubles underscores qui pourraient être créés (ex: __ devient _)
+UPDATE products 
+SET images = ARRAY(
+  SELECT REPLACE(img, '__', '_')
+  FROM unnest(images) AS img
+)
+WHERE images IS NOT NULL;
