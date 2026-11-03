@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /panier.html
+
+Sitemap: https://mouhamadanthony21-cell.github.io/mouasmorstore/sitemap.xml
